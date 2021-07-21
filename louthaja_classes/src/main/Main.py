@@ -6,7 +6,7 @@ Created on Jul 21, 2021
 
 
 # from package.module import class
-from main.Student import Student, BetterStudent
+from main.Student import *
 
 
 
