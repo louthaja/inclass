@@ -6,17 +6,16 @@ Created on Jul 21, 2021
 
 
 # from package.module import class
-from main.Student import Student
+from main.Student import Student, BetterStudent
 
 
 
 
 if __name__ == '__main__':      # make sure I am the entry point for the project
     
-    bill = Student("Bill")
-    brenda = Student("Brenda")
+    bill = BetterStudent("Bill", "Louthan")
+    brenda = BetterStudent("Brenda", "Louthan")
     
-    print("{} {}".format(bill.first_name, brenda.first_name))
     
-    print(bill.__dict__)
-    print(brenda.__dict__)
+    print(bill.toString())
+    print(brenda.toString())
