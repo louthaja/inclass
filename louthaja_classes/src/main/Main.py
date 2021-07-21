@@ -4,7 +4,14 @@ Created on Jul 21, 2021
 @author: Jacob
 '''
 
-if __name__ == '__main__':      # make sure i am the entryy point for the project
+
+# from package.module import class
+from main.Student import Student
+
+
+
+
+if __name__ == '__main__':      # make sure I am the entry point for the project
     
     bill = Student("Bill")
     brenda = Student("Brenda")
