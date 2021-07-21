@@ -10,3 +10,4 @@ if __name__ == '__main__':
     myCorevette = Car("gas-powered", "Chevrolet", "Corvette");
     myCorevette.printMake()
     myCorevette.printModel()
+    
