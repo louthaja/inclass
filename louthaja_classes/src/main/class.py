@@ -11,14 +11,14 @@ class Student(object):
     
 
 
-    def __init__(self):
+    def __init__(self, first_name):
         '''
         Constructor
         '''
-bill = Student()
-brenda = Student()
-bill.firstName = "Bill"
-brenda.first_name = "Brenda"
+        self.first_name = first_name
+        
+bill = Student("Bill")
+brenda = Student("Brenda")
 
 print("{} {}".format(bill.firstName, brenda.first_name))
 
