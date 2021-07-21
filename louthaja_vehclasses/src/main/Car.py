@@ -11,10 +11,10 @@ class Car(Vehicle):
     def __init__(self, type, make, model):
         self.make = make;
         self.model = model;
-        vehicle.__init__(self, type);
+        Vehicle.__init__(self, type);
         
     def printMake(self):
         print(self.make);
         
-    def printmodel(self):
+    def printModel(self):
         print(self.model);
